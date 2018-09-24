@@ -1,0 +1,11 @@
+/.metadata/
+build/
+CMakeFiles/
+bin/
+lib/
+*.ply
+CMakeCache.txt
+Makefile
+*.jpg
+*.obj
+*.mtl

@@ -1,0 +1,47 @@
+[
+{
+  "directory": "/home/hamit/kinfuMultiCam/kinfu",
+  "command": "/usr/bin/c++   -DDISABLE_DAVIDSDK -DDISABLE_DSSDK -DDISABLE_ENSENSO -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DDISABLE_RSSDK -DKFUSION_API_EXPORTS -Dqh_QHpointer -I/usr/include/vtk-5.10 -I/usr/local/include/pcl-1.8 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/usr/include/opencv -I/usr/local/cuda/include -I/home/hamit/kinfuMultiCam/kinfu/include -I/home/hamit/kinfuMultiCam/kinfu/include/kinfu -I/home/hamit/kinfuMultiCam/kinfu/src -I/home/hamit/kinfuMultiCam/kinfu/src/cuda   -std=c++11 -march=native -DWITH_CUDA -DWITH_PCL  -Wno-deprecated -fopenmp -g    -march=native -msse4.2 -mfpmath=sse  -o CMakeFiles/kinfu.dir/src/error.cpp.o -c /home/hamit/kinfuMultiCam/kinfu/src/error.cpp",
+  "file": "/home/hamit/kinfuMultiCam/kinfu/src/error.cpp"
+},
+{
+  "directory": "/home/hamit/kinfuMultiCam/kinfu",
+  "command": "/usr/bin/c++   -DDISABLE_DAVIDSDK -DDISABLE_DSSDK -DDISABLE_ENSENSO -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DDISABLE_RSSDK -DKFUSION_API_EXPORTS -Dqh_QHpointer -I/usr/include/vtk-5.10 -I/usr/local/include/pcl-1.8 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/usr/include/opencv -I/usr/local/cuda/include -I/home/hamit/kinfuMultiCam/kinfu/include -I/home/hamit/kinfuMultiCam/kinfu/include/kinfu -I/home/hamit/kinfuMultiCam/kinfu/src -I/home/hamit/kinfuMultiCam/kinfu/src/cuda   -std=c++11 -march=native -DWITH_CUDA -DWITH_PCL  -Wno-deprecated -fopenmp -g    -march=native -msse4.2 -mfpmath=sse  -o CMakeFiles/kinfu.dir/src/initialization.cpp.o -c /home/hamit/kinfuMultiCam/kinfu/src/initialization.cpp",
+  "file": "/home/hamit/kinfuMultiCam/kinfu/src/initialization.cpp"
+},
+{
+  "directory": "/home/hamit/kinfuMultiCam/kinfu",
+  "command": "/usr/bin/c++   -DDISABLE_DAVIDSDK -DDISABLE_DSSDK -DDISABLE_ENSENSO -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DDISABLE_RSSDK -DKFUSION_API_EXPORTS -Dqh_QHpointer -I/usr/include/vtk-5.10 -I/usr/local/include/pcl-1.8 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/usr/include/opencv -I/usr/local/cuda/include -I/home/hamit/kinfuMultiCam/kinfu/include -I/home/hamit/kinfuMultiCam/kinfu/include/kinfu -I/home/hamit/kinfuMultiCam/kinfu/src -I/home/hamit/kinfuMultiCam/kinfu/src/cuda   -std=c++11 -march=native -DWITH_CUDA -DWITH_PCL  -Wno-deprecated -fopenmp -g    -march=native -msse4.2 -mfpmath=sse  -o CMakeFiles/kinfu.dir/src/device_memory.cpp.o -c /home/hamit/kinfuMultiCam/kinfu/src/device_memory.cpp",
+  "file": "/home/hamit/kinfuMultiCam/kinfu/src/device_memory.cpp"
+},
+{
+  "directory": "/home/hamit/kinfuMultiCam/kinfu",
+  "command": "/usr/bin/c++   -DDISABLE_DAVIDSDK -DDISABLE_DSSDK -DDISABLE_ENSENSO -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DDISABLE_RSSDK -DKFUSION_API_EXPORTS -Dqh_QHpointer -I/usr/include/vtk-5.10 -I/usr/local/include/pcl-1.8 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/usr/include/opencv -I/usr/local/cuda/include -I/home/hamit/kinfuMultiCam/kinfu/include -I/home/hamit/kinfuMultiCam/kinfu/include/kinfu -I/home/hamit/kinfuMultiCam/kinfu/src -I/home/hamit/kinfuMultiCam/kinfu/src/cuda   -std=c++11 -march=native -DWITH_CUDA -DWITH_PCL  -Wno-deprecated -fopenmp -g    -march=native -msse4.2 -mfpmath=sse  -o CMakeFiles/kinfu.dir/src/tsdf_volume.cpp.o -c /home/hamit/kinfuMultiCam/kinfu/src/tsdf_volume.cpp",
+  "file": "/home/hamit/kinfuMultiCam/kinfu/src/tsdf_volume.cpp"
+},
+{
+  "directory": "/home/hamit/kinfuMultiCam/kinfu",
+  "command": "/usr/bin/c++   -DDISABLE_DAVIDSDK -DDISABLE_DSSDK -DDISABLE_ENSENSO -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DDISABLE_RSSDK -DKFUSION_API_EXPORTS -Dqh_QHpointer -I/usr/include/vtk-5.10 -I/usr/local/include/pcl-1.8 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/usr/include/opencv -I/usr/local/cuda/include -I/home/hamit/kinfuMultiCam/kinfu/include -I/home/hamit/kinfuMultiCam/kinfu/include/kinfu -I/home/hamit/kinfuMultiCam/kinfu/src -I/home/hamit/kinfuMultiCam/kinfu/src/cuda   -std=c++11 -march=native -DWITH_CUDA -DWITH_PCL  -Wno-deprecated -fopenmp -g    -march=native -msse4.2 -mfpmath=sse  -o CMakeFiles/kinfu.dir/src/marching_cubes.cpp.o -c /home/hamit/kinfuMultiCam/kinfu/src/marching_cubes.cpp",
+  "file": "/home/hamit/kinfuMultiCam/kinfu/src/marching_cubes.cpp"
+},
+{
+  "directory": "/home/hamit/kinfuMultiCam/kinfu",
+  "command": "/usr/bin/c++   -DDISABLE_DAVIDSDK -DDISABLE_DSSDK -DDISABLE_ENSENSO -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DDISABLE_RSSDK -DKFUSION_API_EXPORTS -Dqh_QHpointer -I/usr/include/vtk-5.10 -I/usr/local/include/pcl-1.8 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/usr/include/opencv -I/usr/local/cuda/include -I/home/hamit/kinfuMultiCam/kinfu/include -I/home/hamit/kinfuMultiCam/kinfu/include/kinfu -I/home/hamit/kinfuMultiCam/kinfu/src -I/home/hamit/kinfuMultiCam/kinfu/src/cuda   -std=c++11 -march=native -DWITH_CUDA -DWITH_PCL  -Wno-deprecated -fopenmp -g    -march=native -msse4.2 -mfpmath=sse  -o CMakeFiles/kinfu.dir/src/cyclical_buffer.cpp.o -c /home/hamit/kinfuMultiCam/kinfu/src/cyclical_buffer.cpp",
+  "file": "/home/hamit/kinfuMultiCam/kinfu/src/cyclical_buffer.cpp"
+},
+{
+  "directory": "/home/hamit/kinfuMultiCam/kinfu",
+  "command": "/usr/bin/c++   -DDISABLE_DAVIDSDK -DDISABLE_DSSDK -DDISABLE_ENSENSO -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DDISABLE_RSSDK -DKFUSION_API_EXPORTS -Dqh_QHpointer -I/usr/include/vtk-5.10 -I/usr/local/include/pcl-1.8 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/usr/include/opencv -I/usr/local/cuda/include -I/home/hamit/kinfuMultiCam/kinfu/include -I/home/hamit/kinfuMultiCam/kinfu/include/kinfu -I/home/hamit/kinfuMultiCam/kinfu/src -I/home/hamit/kinfuMultiCam/kinfu/src/cuda   -std=c++11 -march=native -DWITH_CUDA -DWITH_PCL  -Wno-deprecated -fopenmp -g    -march=native -msse4.2 -mfpmath=sse  -o CMakeFiles/kinfu.dir/src/kinfu.cpp.o -c /home/hamit/kinfuMultiCam/kinfu/src/kinfu.cpp",
+  "file": "/home/hamit/kinfuMultiCam/kinfu/src/kinfu.cpp"
+},
+{
+  "directory": "/home/hamit/kinfuMultiCam/apps",
+  "command": "/usr/bin/c++   -DDISABLE_DAVIDSDK -DDISABLE_DSSDK -DDISABLE_ENSENSO -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DDISABLE_RSSDK -Dqh_QHpointer -I/usr/include/vtk-5.10 -I/usr/local/include/pcl-1.8 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/usr/include/opencv -I/usr/local/cuda/include -I/home/hamit/kinfuMultiCam/kinfu/include -I/home/hamit/kinfuMultiCam/kinfu/include/kinfu -I/usr/local/include   -std=c++11 -march=native -DWITH_CUDA -DWITH_PCL  -Wno-deprecated -fopenmp -g    -march=native -msse4.2 -mfpmath=sse  -o CMakeFiles/kinfuMultiCamGPUTexturing.dir/kinfuMultiCamGPUTexturing.cpp.o -c /home/hamit/kinfuMultiCam/apps/kinfuMultiCamGPUTexturing.cpp",
+  "file": "/home/hamit/kinfuMultiCam/apps/kinfuMultiCamGPUTexturing.cpp"
+},
+{
+  "directory": "/home/hamit/kinfuMultiCam/apps",
+  "command": "/usr/bin/c++   -DDISABLE_DAVIDSDK -DDISABLE_DSSDK -DDISABLE_ENSENSO -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DDISABLE_RSSDK -Dqh_QHpointer -I/usr/include/vtk-5.10 -I/usr/local/include/pcl-1.8 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -I/usr/include/opencv -I/usr/local/cuda/include -I/home/hamit/kinfuMultiCam/kinfu/include -I/home/hamit/kinfuMultiCam/kinfu/include/kinfu -I/usr/local/include   -std=c++11 -march=native -DWITH_CUDA -DWITH_PCL  -Wno-deprecated -fopenmp -g    -march=native -msse4.2 -mfpmath=sse  -o CMakeFiles/kinfuMultiCam.dir/kinfuMultiCam.cpp.o -c /home/hamit/kinfuMultiCam/apps/kinfuMultiCam.cpp",
+  "file": "/home/hamit/kinfuMultiCam/apps/kinfuMultiCam.cpp"
+}
+]

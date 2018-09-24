@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "${workspaceFolder}/kinfu/include/kinfu",
+                    "${workspaceFolder}/kinfu/include",
+                    "/usr/local/include/pcl-1.8",
+                    "/usr/local/cuda/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/kinfu/include/kinfu",
+                "${workspaceFolder}/kinfu/include",
+                "/usr/local/include/pcl-1.8",
+                "/usr/local/cuda/include",
+                "/usr/include/vtk-6.2",
+                "/usr/include/vtk-5.10"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "${default}"
+        }
+    ],
+    "version": 4
+}

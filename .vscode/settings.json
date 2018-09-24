@@ -1,0 +1,20 @@
+{
+    "files.associations": {
+        "core": "cpp",
+        "iostream": "cpp",
+        "iosfwd": "cpp",
+        "chrono": "cpp",
+        "memory": "cpp",
+        "ratio": "cpp"
+    },
+    "clang.cxxflags": [
+        "-std=c++11",
+    "-Wall",
+    "-I${workspaceRoot}",
+    "-I/usr/include/",
+    "-I/usr/include/c++/5.5.0"
+    ],
+    "C_Cpp.intelliSenseEngineFallback": "Disabled",
+
+
+}

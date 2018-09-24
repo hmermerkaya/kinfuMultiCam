@@ -1,0 +1,137 @@
+cmake_minimum_required(VERSION 2.8.9)
+project (hello)
+
+add_executable(hello helloworld.cpp)
+set_target_properties(
+    hello 
+    PROPERTIES 
+	OUTPUT_NAME "myname"
+        SUFFIX ".myext"
+)
+target_compile_features(hello PUBLIC cxx_std_17)
+message("Supported features = ${CMAKE_CXX_COMPILE_FEATURES}")
+get_cmake_property(_variableNames CMAKE_MODULE_PATH)
+list (SORT _variableNames)
+#find_package(CMAKE_MODULES)
+
+foreach (_variableName ${CMAKE_MODULE_PATH})
+	#	message(STATUS "${_variableName}=${${_variableName}}")
+endforeach()
+message(STATUS ${CMAKE_MODULE_PATH})
+
+#set(CMAKE_CONFIGURATION_TYPES "Include\\cuda") 
+
+set(CMAKE_CONFIGURATION_TYPES "Debug Release" CACHE STRING "Possible configurations" )
+
+#set(CMAKE_CONFIGURATION_TYPES "Rel") 
+#set(CMAKE_CONFIGURATION_TYPES "Debug;R" CACHE STRING "Possible configurations" FORCE ) 
+message(STATUS " CMAKE_CONFIGURATION_TYPES ${CMAKE_CONFIGURATION_TYPES}")
+
+set(PATHKinfu /etc/hosts  CACHE FILEPATH "Possible configurations" )
+if (DEFINED CMAKE_BUILD_TYPE)
+	message(STATUS  " cmake build type ${CMAKE_BUILD_TYPE} ")
+      	set_property(CACHE CMAKE_BUILD_TYPE PROPERTY STRINGS ${CMAKE_CONFIGURATION_TYPES})
+endif()
+
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake/Modules/")
+message(STATUS " CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH}")
+
+
+set(BaseName "bry" CACHE STRING "BaseName chosen by the user at CMake configure time" FORCE)
+set_property(CACHE BaseName PROPERTY STRINGS  octal decimal hexadecimal -std=c++11 )
+get_property(res CACHE BaseName PROPERTY STRINGS)
+message(STATUS "res ${res}")
+
+
+set(var "ABC")
+
+macro(Moo arg)
+  message("arg = ${arg}")
+  set(arg "abc")
+  message("# After change the value of arg.")
+  message("arg = ${arg}")
+endmacro()
+message("=== Call macro ===")
+Moo(${var})
+
+
+function(use_llvm TARGET)
+message("ARGC=\"${ARGC}\"")
+message("ARGN=\"${ARGN}\"")
+message("ARGV=\"${ARGV}\"")
+message("ARGV0=\"${ARGV0}\"")
+message("ARGV1=\"${ARGV1}\"")
+endfunction()
+
+use_llvm(foo core bitwriter)
+
+include(./utils.cmake)
+
+file(GLOB cuda *.*)
+list(LENGTH cuda ___size) 
+message(STATUS "size ${___size}")
+function(dmsg)
+	message(STATUS "<<${ARGN}")
+endfunction()
+dmsg(${cuda} ${___size})
+message(STATUS "<<${ARGV}")
+set(__has_cuda OFF)
+check_cuda(${__has_cuda})
+
+dmsg(${__has_cuda})
+dmsg("hamit " ${flag_vars} )
+
+string(REPLACE "a" "t" ham "var")
+dmsg("ham" ${ham} )
+
+
+#ocv_check_flag_support(${ham} "${flag_vars}" _varname)
+
+find_package(OpenCV  3.4.1 REQUIRED )
+
+dmsg("cv compiler is gnu" ${CV_COMPILER_IS_GNU})
+
+FILE(GLOB source_files
+    ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/*.txt
+)
+
+dmsg("source files " ${source_files})
+source_group(Math FILES ${source_files})
+dmsg("source group" ${Math})
+
+
+get_filename_component(path "${CMAKE_SOURCE_DIR}" ABSOLUTE)
+dmsg("path " ${path})
+dmsg("CMAKE_COMPILER_IS_GNUCXX " ${CMAKE_COMPILER_IS_GNUCXX})
+dmsg("GCC_VERSION " ${GCC_VERSION})
+find_package(OpenMP)
+
+dmsg("use foldes ${USE_FOLDERS}" )
+
+if (USE_FOLDERS)
+	dmsg("hellooo")
+endif()
+set(__has_cuda ON)
+if (__has_cuda)
+	dmsg("hellooo")
+endif()
+
+set_property(TARGET hello PROPERTY  FOLDER    "Executable" )
+
+SET(MYLIST "a;b;c")
+FOREACH(LETTER ${MYLIST})
+	MESSAGE("STATUS <<${LETTER}>>")
+ENDFOREACH()
+
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}")
+dmsg( " CMAKE_CXX_FLAGS " ${CMAKE_CXX_FLAGS})
+
+
+set(__lib_type STATIC)
+if (${ARGV1} MATCHES "SHARED|STATIC")
+    set(__lib_type ${ARGV1})
+endif()
+dmsg("argv1" ${ARGV1} )
+

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>kinfuMultiCam-Debug@kinfuMultiCam</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.makeBuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>org.eclipse.cdt.core.errorOutputParser</key>
+					<value>org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.append_environment</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.autoBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.arguments</key>
+					<value>-j12</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.command</key>
+					<value>/usr/bin/make</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.location</key>
+					<value>/home/hamit/kinfuMultiCam</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.auto</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.clean</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.inc</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildArguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildLocation</key>
+					<value>/home/hamit/kinfuMultiCam</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.contents</key>
+					<value>org.eclipse.cdt.make.core.activeConfigSettings</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableAutoBuild</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableCleanBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableFullBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enabledIncrementalBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.environment</key>
+					<value>CMAKE_NO_VERBOSE=1|VERBOSE=1|</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.fullBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.stopOnError</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.useDefaultBuildCmd</key>
+					<value>false</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.ScannerConfigBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.make.core.makeNature</nature>
+		<nature>org.eclipse.cdt.make.core.ScannerConfigNature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>[Subprojects]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] kinfuMultiCam/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kinfu/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] kinfuMultiCam/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] kinfuMultiCam/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] kinfuMultiCam/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] kinfuMultiCam/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] kinfuMultiCam/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kinfu/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kinfu/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kinfu/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kinfu/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kinfu/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kinfu/bilateral_pyrdown.cu</name>
+			<type>1</type>
+			<location>/home/hamit/kinfuMultiCam/kinfu/src/cuda/bilateral_pyrdown.cu</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kinfu/maps.cu</name>
+			<type>1</type>
+			<location>/home/hamit/kinfuMultiCam/kinfu/src/cuda/maps.cu</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kinfu/marching_cubes.cu</name>
+			<type>1</type>
+			<location>/home/hamit/kinfuMultiCam/kinfu/src/cuda/marching_cubes.cu</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kinfu/normals_eigen.cu</name>
+			<type>1</type>
+			<location>/home/hamit/kinfuMultiCam/kinfu/src/cuda/normals_eigen.cu</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kinfu/pointer_shift.cu</name>
+			<type>1</type>
+			<location>/home/hamit/kinfuMultiCam/kinfu/src/cuda/pointer_shift.cu</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kinfu/push.cu</name>
+			<type>1</type>
+			<location>/home/hamit/kinfuMultiCam/kinfu/src/cuda/push.cu</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kinfu/tsdf_volume.cu</name>
+			<type>1</type>
+			<location>/home/hamit/kinfuMultiCam/kinfu/src/cuda/tsdf_volume.cu</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] kinfuMultiCam/Source Files/kinfuMultiCam.cpp</name>
+			<type>1</type>
+			<location>/home/hamit/kinfuMultiCam/apps/kinfuMultiCam.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kinfu/Header Files/device.hpp</name>
+			<type>1</type>
+			<location>/home/hamit/kinfuMultiCam/kinfu/src/cuda/device.hpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kinfu/Header Files/utils.hpp</name>
+			<type>1</type>
+			<location>/home/hamit/kinfuMultiCam/kinfu/src/cuda/utils.hpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kinfu/Object Files/kinfu_generated_bilateral_pyrdown.cu.o</name>
+			<type>1</type>
+			<location>/home/hamit/kinfuMultiCam/kinfu/CMakeFiles/kinfu.dir/src/cuda/kinfu_generated_bilateral_pyrdown.cu.o</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kinfu/Object Files/kinfu_generated_maps.cu.o</name>
+			<type>1</type>
+			<location>/home/hamit/kinfuMultiCam/kinfu/CMakeFiles/kinfu.dir/src/cuda/kinfu_generated_maps.cu.o</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kinfu/Object Files/kinfu_generated_marching_cubes.cu.o</name>
+			<type>1</type>
+			<location>/home/hamit/kinfuMultiCam/kinfu/CMakeFiles/kinfu.dir/src/cuda/kinfu_generated_marching_cubes.cu.o</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kinfu/Object Files/kinfu_generated_normals_eigen.cu.o</name>
+			<type>1</type>
+			<location>/home/hamit/kinfuMultiCam/kinfu/CMakeFiles/kinfu.dir/src/cuda/kinfu_generated_normals_eigen.cu.o</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kinfu/Object Files/kinfu_generated_pointer_shift.cu.o</name>
+			<type>1</type>
+			<location>/home/hamit/kinfuMultiCam/kinfu/CMakeFiles/kinfu.dir/src/cuda/kinfu_generated_pointer_shift.cu.o</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kinfu/Object Files/kinfu_generated_push.cu.o</name>
+			<type>1</type>
+			<location>/home/hamit/kinfuMultiCam/kinfu/CMakeFiles/kinfu.dir/src/cuda/kinfu_generated_push.cu.o</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kinfu/Object Files/kinfu_generated_tsdf_volume.cu.o</name>
+			<type>1</type>
+			<location>/home/hamit/kinfuMultiCam/kinfu/CMakeFiles/kinfu.dir/src/cuda/kinfu_generated_tsdf_volume.cu.o</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kinfu/Source Files/cyclical_buffer.cpp</name>
+			<type>1</type>
+			<location>/home/hamit/kinfuMultiCam/kinfu/src/cyclical_buffer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kinfu/Source Files/device_memory.cpp</name>
+			<type>1</type>
+			<location>/home/hamit/kinfuMultiCam/kinfu/src/device_memory.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kinfu/Source Files/error.cpp</name>
+			<type>1</type>
+			<location>/home/hamit/kinfuMultiCam/kinfu/src/error.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kinfu/Source Files/initialization.cpp</name>
+			<type>1</type>
+			<location>/home/hamit/kinfuMultiCam/kinfu/src/initialization.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kinfu/Source Files/kinfu.cpp</name>
+			<type>1</type>
+			<location>/home/hamit/kinfuMultiCam/kinfu/src/kinfu.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kinfu/Source Files/marching_cubes.cpp</name>
+			<type>1</type>
+			<location>/home/hamit/kinfuMultiCam/kinfu/src/marching_cubes.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kinfu/Source Files/tsdf_volume.cpp</name>
+			<type>1</type>
+			<location>/home/hamit/kinfuMultiCam/kinfu/src/tsdf_volume.cpp</location>
+		</link>
+	</linkedResources>
+</projectDescription>
